@@ -18,3 +18,11 @@ Skills: Tableau, Dashboard creation
 
 
 
+
+# Customer Purchase Behaviour-Power BI-Project
+[Dataset.csv](https://github.com/user-attachments/files/20415801/ecommerce_customer_data_custom_ratios.csv)     
+![Screenshot 2025-05-22 105432](https://github.com/user-attachments/assets/0c48a1d4-b1af-43fd-a564-fcaa29ff198f)
+
+This project was a beginner-level project in Power BI, and the goal of the project was identify which product category generate the most reveune, conduct a demographic segmentation analysis by grouping sales records in Power BI by gender and age bracket, customer prefered payment method, and to identify the Top 5 customers. Power Quary was used to clean up dataset by replacing value and DAX was used to calculate KPIs. The dashboard produced pie chartd isplaying gender distribution, Line Graph displaying monthly sales trend, Table showing top 5 customers, and Bar Graph Showing total reveune by product category and average spend by age group.
+
+Skills: Power BI, Power Quary, DAX, and Dashboard creation
