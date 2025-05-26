@@ -1,0 +1,93 @@
+-- EDA of Hospital Admission 
+-- 1. How many patients are admitted each month?
+SELECT 
+month_year, 
+count(*) AS total_number_patients_admitted_each_month
+FROM hospital_admission.admission
+GROUP BY month_year;
+-- Comment: It seems the highest patients admitted was Jan-19 
+
+-- 2. What’s the average AGE for Emergency vs OPD admissions?
+SELECT admission_type,
+ round(avg(age), 2) AS Avg_age
+FROM hospital_admission.admission
+GROUP BY admission_type;
+-- Comment: The average age for E= 62.24 and for O = 59.59
+
+-- 3. What’s the gender distribution of admitted patients?
+SELECT
+  GENDER,
+  COUNT(*) AS admission_count,
+  ROUND(100 * COUNT(*) / (SELECT COUNT(*) FROM hospital_admission.admission), 2) AS admission_pct
+FROM hospital_admission.admission
+GROUP BY GENDER;
+-- Comment: Male has the highest admission rate compare to Female 
+
+-- 4. For rural (R) vs urban (U) patients, how many ended in DAMA vs DISCHARGED?
+SELECT RURAL, OUTCOME, COUNT(*) AS n_patients
+FROM hospital_admission.admission
+WHERE OUTCOME IN ('DISCHARGE', 'DAMA') 
+GROUP BY RURAL, OUTCOME;
+-- Comment: Urban has the highest number of patients discharge and DAMA 
+
+-- 5. Compare emergency vs OPD admission counts
+SELECT admission_type, COUNT(*) as admission_counts
+FROM hospital_admission.admission
+GROUP BY admission_type;
+-- Comment: It seems that Emergency has the highest admission rate 
+
+
+-- 6. For each OUTCOME, what is the average, minimum, and maximum duration of intensive unit stay?
+SELECT
+  OUTCOME,
+  ROUND(AVG(`duration of intensive unit stay`), 2) AS avg_icu_days,
+  MIN(`duration of intensive unit stay`)           AS min_icu_days,
+  MAX(`duration of intensive unit stay`)           AS max_icu_days
+FROM hospital_admission.admission
+WHERE `duration of intensive unit stay` IS NOT NULL
+GROUP BY OUTCOME
+ORDER BY avg_icu_days DESC;
+-- Comment: It seems that EXPIRY has the highest avg ICU stay and  EXPIRY and DISCHARGE has the Max day of 48, and Min day across all OUTCOME is 0 
+
+
+-- 7. For each comorbidity (e.g. DM, HTN, CKD), what percentage of patients stayed > 10 days?
+SELECT
+  'DM'       AS comorbidity,
+  ROUND(
+    100 * SUM(CASE WHEN DM  = 1 AND `DURATION OF STAY` > 10 THEN 1 ELSE 0 END)
+        / NULLIF(SUM(DM), 0),
+    2
+  ) AS pct_long_stay
+FROM hospital_admission.admission
+
+UNION ALL
+
+SELECT
+  'HTN'      AS comorbidity,
+  ROUND(
+    100 * SUM(CASE WHEN HTN = 1 AND `DURATION OF STAY` > 10 THEN 1 ELSE 0 END)
+        / NULLIF(SUM(HTN), 0),
+    2
+  ) AS pct_long_stay
+FROM hospital_admission.admission
+
+UNION ALL
+
+SELECT
+  'CKD'      AS comorbidity,
+  ROUND(
+    100 * SUM(CASE WHEN CKD = 1 AND `DURATION OF STAY` > 10 THEN 1 ELSE 0 END)
+        / NULLIF(SUM(CKD), 0),
+    2
+  ) AS pct_long_stay
+FROM hospital_admission.admission;
+-- Comment: It seems that CKD has the highest % stay
+
+
+-- 8. Which three consecutive “month year” periods saw the largest % increase in admissions compared to the prior month?
+SELECT month_year, 
+ROUND(100 * COUNT(*) / (SELECT COUNT(*) FROM hospital_admission.admission), 2) AS admission_pct
+FROM hospital_admission.admission
+GROUP BY month_year
+ORDER BY admission_pct DESC LIMIT 3;
+-- Comment: It seems that Jan-19 saw the largest % admission.
