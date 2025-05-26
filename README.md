@@ -31,7 +31,7 @@ Skills: Power BI, Power Quary, DAX, and Dashboard creation
 
 
 # Hospital Admission-Project-SQL
-[Dataset.csv](https://github.com/user-attachments/files/20442897/admission.csv)  EDA using SQL
+[Dataset.csv](https://github.com/user-attachments/files/20442897/admission.csv)                            [EDA using SQL](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/EDA%20using%20SQL)
 
 In this project I explored Hospital Admission data, answering different problem questions to understand monthly admission rate. I performed data exploratory data analysis using skills such as union all, case statement and more in order to answer the unique problem statements.
 
