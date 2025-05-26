@@ -26,3 +26,13 @@ Skills: Tableau, Dashboard creation
 This project was a beginner-level project in Power BI, and the goal of the project was identify which product category generate the most reveune, conduct a demographic segmentation analysis by grouping sales records in Power BI by gender and age bracket, customer prefered payment method, and to identify the Top 5 customers. Power Quary was used to clean up dataset by replacing value and DAX was used to calculate KPIs. The dashboard produced pie chartd isplaying gender distribution, Line Graph displaying monthly sales trend, Table showing top 5 customers, and Bar Graph Showing total reveune by product category and average spend by age group.
 
 Skills: Power BI, Power Quary, DAX, and Dashboard creation
+
+
+
+
+# Hospital Admission-Project-SQL
+[Dataset.csv](https://github.com/user-attachments/files/20442897/admission.csv)  
+
+In this project I explored Hospital Admission data, answering different problem questions to understand monthly admission rate. I performed data exploratory data analysis using skills such as union all, case statement and more in order to answer the unique problem statements.
+
+Skills: MYSQL, UNION ALL, EDA
