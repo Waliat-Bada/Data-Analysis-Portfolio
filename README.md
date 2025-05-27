@@ -43,7 +43,7 @@ Skills: MYSQL, UNION ALL, EDA
 
 # Superstore Sales Analysis-Project-Python
 
-[Dataset.csv](https://github.com/user-attachments/files/20457998/Superstore.csv)        
+[Dataset.csv](https://github.com/user-attachments/files/20457998/Superstore.csv)        [Superstore Sales using Python](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/a4ced9710c40f8b06f3629873a9518bc731c65e1/Superstore_Sales_Analysis_Python.ipynb)
 
 
 This project used python to analyse Superstore Sales, and the goal of the project was identify which product category generate the most sales, monthly sales trend, profit by region, and relationship between discount and profit. I began the proecess by importing python libraries, then loading and exploring data, cleaning the data, analysing and visualising results using both vertical and horizontal bar graph, line graph, and scatter graph.  
