@@ -36,3 +36,16 @@ Skills: Power BI, Power Quary, DAX, and Dashboard creation
 In this project I explored Hospital Admission data, answering different problem questions to understand monthly admission rate. I performed data exploratory data analysis using skills such as union all, case statement and more in order to answer the unique problem statements.
 
 Skills: MYSQL, UNION ALL, EDA
+
+
+
+
+
+# Superstore Sales Analysis-Project-Python
+
+[Dataset.csv](https://github.com/user-attachments/files/20457998/Superstore.csv)  
+
+This project used python to analyse Superstore Sales, and the goal of the project was identify which product category generate the most sales, monthly sales trend, profit by region, and relationship between discount and profit. I began the proecess by importing python libraries, then loading and exploring data, cleaning the data, analysing and visualising results using both vertical and horizontal bar graph, line graph, and scatter graph.  
+
+Skills: Pandas, Data Cleaning, Data Visualisation
+
