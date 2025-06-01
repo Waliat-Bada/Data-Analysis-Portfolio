@@ -50,3 +50,17 @@ This project used python to analyse Superstore Sales, and the goal of the projec
 
 Skills: Pandas, Data Cleaning, Data Visualisation
 
+
+
+
+# Coffee Sales DashBoard 
+
+[Dataset.xlsx](https://github.com/user-attachments/files/20540208/coffeeOrdersData.xlsx) [DashBoard.xlsx](https://github.com/user-attachments/files/20540214/Coffee_Sales_Project1.xlsx)
+
+
+This project is used to showcase advanced Excel skills, including XLOOKUP and INDEX function to search for values from different tables. Then, I used PivotTables and PivotCharts to analyse the data and create a dashboard with slicers and filters.
+
+Skills: Excel, PivotTables, IF, XLOOKUP, INDEX, Dashboard Creation
+
+
+
