@@ -67,9 +67,9 @@ Skills: Excel, PivotTables, IF, XLOOKUP, INDEX, Dashboard Creation
 # British Airways Review DashBoard   
 [Dataset.Countries.csv](https://github.com/user-attachments/files/20554204/Countries.csv)   [Dataset.ba_reviews.csv](https://github.com/user-attachments/files/20554238/ba_reviews.csv) https://public.tableau.com/app/profile/waliat.adebayo.bada/viz/BritishAirwaysReview_17488768419740/Dashboard1?publish=yes 
 
-This project produced  advanced Tableau skills, including Calcuted field and Parameters. The goal of the project was to analyse British Airways Review. The dashboard produced Map displaying average rating by country, Line Graph displaying average rating by month, and Bar Graph Showing average rating and number of reviews by aircraft. 
+This project produced  advanced Tableau skills, including Calcuted field, Parameters, and Filters. The goal of the project was to analyse British Airways Review. The dashboard produced Map displaying average rating by country, Line Graph displaying average rating by month, and Bar Graph Showing average rating and number of reviews by aircraft. 
 
-Skills: Tableau, Calculated field, paramters, Dashboard creation
+Skills: Tableau, Calculated field, paramters, Filter, Dashboard creation
   
 
 
