@@ -10,7 +10,7 @@ Skills: Excel, PivotTables, IFS, TEXT, Dashboard Creation
 
 
 # Life Expectancy-Tableau-Project
-[Dataset.csv](https://github.com/user-attachments/files/20244768/who_life_exp.csv)     https://public.tableau.com/app/profile/waliat.adebayo.bada/viz/Book2_17473825009910/Dashboard1 
+[Dataset.csv](https://github.com/user-attachments/files/20244768/who_life_exp.csv)     [Life_Expectancy_Dashboard](https://public.tableau.com/app/profile/waliat.adebayo.bada/viz/Book2_17473825009910/Dashboard1)
 
 This project was a beginner-level project in Tableau, and the goal of the project was to analyse Life expectancy over time and the correlation between life expectancy and alcohol consumption. The dashboard produced Map displaying average Life expectancy across the globe including colour to identify countries with lowest and highest life expectancy, Line Graph displaying average life expectancy over time, Scatter Graph showing the correlation between average life expectancy and alcohol consuption, and Bar Graph Showing sum of HIV by country. 
 
@@ -20,8 +20,7 @@ Skills: Tableau, Dashboard creation
 
 
 # Customer Purchase Behaviour-Power BI-Project
-[Dataset.csv](https://github.com/user-attachments/files/20415801/ecommerce_customer_data_custom_ratios.csv)     
-![Screenshot 2025-05-22 105432](https://github.com/user-attachments/assets/0c48a1d4-b1af-43fd-a564-fcaa29ff198f)
+[Dataset.csv](https://github.com/user-attachments/files/20415801/ecommerce_customer_data_custom_ratios.csv)     [Customer-Behaviour-Dashboard](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/Customer%20Purchase%20behaviour%20and%20sales%20analysis.pbix)
 
 This project was a beginner-level project in Power BI, and the goal of the project was identify which product category generate the most reveune, conduct a demographic segmentation analysis by grouping sales records in Power BI by gender and age bracket, customer prefered payment method, and to identify the Top 5 customers. Power Quary was used to clean up dataset by replacing value and DAX was used to calculate KPIs. The dashboard produced pie chartd isplaying gender distribution, Line Graph displaying monthly sales trend, Table showing top 5 customers, and Bar Graph Showing total reveune by product category and average spend by age group.
 
@@ -65,7 +64,7 @@ Skills: Excel, PivotTables, IF, XLOOKUP, INDEX, Dashboard Creation
 
 
 # British Airways Review DashBoard   
-[Dataset.Countries.csv](https://github.com/user-attachments/files/20554204/Countries.csv)   [Dataset.ba_reviews.csv](https://github.com/user-attachments/files/20554238/ba_reviews.csv) https://public.tableau.com/app/profile/waliat.adebayo.bada/viz/BritishAirwaysReview_17488768419740/Dashboard1?publish=yes 
+[Dataset.Countries.csv](https://github.com/user-attachments/files/20554204/Countries.csv)   [Dataset.ba_reviews.csv](https://github.com/user-attachments/files/20554238/ba_reviews.csv) [British_Airways_Reeview_Dashboard](https://public.tableau.com/app/profile/waliat.adebayo.bada/viz/BritishAirwaysReview_17488768419740/Dashboard1?publish=yes)
 
 This project produced  advanced Tableau skills, including Calcuted field, Parameters, and Filters. The goal of the project was to analyse British Airways Review. The dashboard produced Map displaying average rating by country, Line Graph displaying average rating by month, and Bar Graph Showing average rating and number of reviews by aircraft. 
 
