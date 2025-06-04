@@ -1,4 +1,4 @@
-[HR-Employee-Attrition.csv](https://github.com/user-attachments/files/20588145/HR-Employee-Attrition.csv)# Sales-Excel-Project
+# Sales-Excel-Project
 [Full Excel Project.xlsx](https://github.com/user-attachments/files/20244280/Full.Excel.Project.xlsx)  [Dataset.csv](https://github.com/user-attachments/files/20244572/retail_sales_dataset.1.csv)
 
 This project is used to showcase Excel skills, including IFS and TEXT function to create new column for age bracket and extract month from the date column. Then, I used PivotTables to analyse the data and create a dashboard with slicers and filters.
@@ -75,7 +75,7 @@ Skills: Tableau, Calculated field, paramters, Filter, Dashboard creation
 # HR Analytics Dashboard
   
 
-[Dataset.csv](https://github.com/user-attachments/files/20588611/HR-Employee-Attrition.csv) 
+[Dataset.csv](https://github.com/user-attachments/files/20588611/HR-Employee-Attrition.csv) [HR_Analytic Dashboard](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/HR%20Analytics%20Dashboard.pbix)
 
 This project produced advanced Power BI skills, including Power query and complex Dax formulas. The goal of the project was to analyse factors contributing to employee's attrition. The dashboard produced a table displaying employee's atrrition by job role and job satisfaction, Line Graph displaying attrition by years spend at the company, Pie chart show attrition by education, and Bar Graphs Showing attition by monthly salary, attrition by age, and attrition by job role. 
 
