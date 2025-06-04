@@ -1,4 +1,4 @@
-# Sales-Excel-Project
+[HR-Employee-Attrition.csv](https://github.com/user-attachments/files/20588145/HR-Employee-Attrition.csv)# Sales-Excel-Project
 [Full Excel Project.xlsx](https://github.com/user-attachments/files/20244280/Full.Excel.Project.xlsx)  [Dataset.csv](https://github.com/user-attachments/files/20244572/retail_sales_dataset.1.csv)
 
 This project is used to showcase Excel skills, including IFS and TEXT function to create new column for age bracket and extract month from the date column. Then, I used PivotTables to analyse the data and create a dashboard with slicers and filters.
@@ -66,9 +66,18 @@ Skills: Excel, PivotTables, IF, XLOOKUP, INDEX, Dashboard Creation
 # British Airways Review DashBoard   
 [Dataset.Countries.csv](https://github.com/user-attachments/files/20554204/Countries.csv)   [Dataset.ba_reviews.csv](https://github.com/user-attachments/files/20554238/ba_reviews.csv) [British_Airways_Reeview_Dashboard](https://public.tableau.com/app/profile/waliat.adebayo.bada/viz/BritishAirwaysReview_17488768419740/Dashboard1?publish=yes)
 
-This project produced  advanced Tableau skills, including Calcuted field, Parameters, and Filters. The goal of the project was to analyse British Airways Review. The dashboard produced Map displaying average rating by country, Line Graph displaying average rating by month, and Bar Graph Showing average rating and number of reviews by aircraft. 
+This project produced advanced Tableau skills, including Calcuted field, Parameters, and Filters. The goal of the project was to analyse British Airways Review. The dashboard produced Map displaying average rating by country, Line Graph displaying average rating by month, and Bar Graph Showing average rating and number of reviews by aircraft. 
 
 Skills: Tableau, Calculated field, paramters, Filter, Dashboard creation
+
+
+
+# HR Analytics Dashboard
   
 
+[Dataset.csv](https://github.com/user-attachments/files/20588611/HR-Employee-Attrition.csv) 
+
+This project produced advanced Power BI skills, including Power query and complex Dax formulas. The goal of the project was to analyse factors contributing to employee's attrition. The dashboard produced a table displaying employee's atrrition by job role and job satisfaction, Line Graph displaying attrition by years spend at the company, Pie chart show attrition by education, and Bar Graphs Showing attition by monthly salary, attrition by age, and attrition by job role. 
+
+Skills: Power BI, DAX, Power Query, Dashboard creation
 
