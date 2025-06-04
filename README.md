@@ -77,7 +77,7 @@ Skills: Tableau, Calculated field, paramters, Filter, Dashboard creation
 
 [Dataset.csv](https://github.com/user-attachments/files/20588611/HR-Employee-Attrition.csv) [HR_Analytic Dashboard](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/HR%20Analytics%20Dashboard.pbix)
 
-This project produced advanced Power BI skills, including Power query and complex Dax formulas. The goal of the project was to analyse factors contributing to employee's attrition. The dashboard produced a table displaying employee's atrrition by job role and job satisfaction, Line Graph displaying attrition by years spend at the company, Pie chart show attrition by education, and Bar Graphs Showing attition by monthly salary, attrition by age, and attrition by job role. 
+This project produced advanced Power BI skills, including Power query and complex Dax formulas. The goal of the project was to analyse factors contributing to employees attrition. The dashboard produced a table displaying employee's atrrition by job role and job satisfaction, Line Graph displaying attrition by years spend at the company, Pie chart show attrition by education, and Bar Graphs Showing attition by monthly salary, attrition by age, and attrition by job role. 
 
 Skills: Power BI, DAX, Power Query, Dashboard creation
 
