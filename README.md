@@ -85,7 +85,7 @@ Skills: Power BI, DAX, Power Query, Dashboard creation
 
 # Data Cleaning 
 
-[Data_set.csv](https://github.com/user-attachments/files/20592578/mtn_customer_churn.csv)
+[Data_set.csv](https://github.com/user-attachments/files/20592578/mtn_customer_churn.csv)      [Data_Cleaning_Using_SQL](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/Data%20Cleaning%20Using%20SQL)
 
 In this project. I performed data cleaning using SQL, showcasing skills such as CTE, ROW_Number, View and more.
 
