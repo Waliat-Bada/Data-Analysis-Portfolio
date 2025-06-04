@@ -1,0 +1,81 @@
+-- Data Cleaning 
+-- 1. Removing Duplicates
+-- Step 1: Checking for duplicates 
+SELECT ID, COUNT(*) AS duplicate_count
+FROM customer.mtn_customer_churn
+GROUP BY ID
+HAVING COUNT(*) > 1 ;
+
+
+-- Step 2: Creating a table 
+
+CREATE TABLE churn_2 LIKE mtn_customer_churn; 
+SELECT * 
+FROM churn_2;
+
+-- Step 3: Importing data into a table 
+INSERT churn_2
+SELECT *
+FROM mtn_customer_churn; 
+
+
+-- Step 4: Identifying duplicete using row_number 
+SELECT *, 
+ROW_NUMBER() OVER(
+PARTITION BY ID, FullName) AS row_num
+FROM churn_2;
+
+-- Step 5: Using CTE 
+WITH duplicate_cte AS
+(
+SELECT *, 
+ROW_NUMBER() OVER(
+PARTITION BY ID, FullName) AS row_num
+FROM churn_2
+)
+SELECT *
+FROM duplicate_cte
+WHERE row_num > 1; 
+
+-- Step 6: Creating table to include row_num 
+CREATE TABLE churn_3 LIKE churn_2; 
+ALTER TABLE churn_3 ADD row_num int; 
+
+-- Step 7 Inserting data to include row_num 
+INSERT INTO churn_3 
+SELECT *, 
+ROW_NUMBER() OVER(
+PARTITION BY ID, FullName) AS row_num
+FROM churn_2;
+
+-- Step 8 Removing Duplicate
+DELETE 
+FROM churn_3
+WHERE row_num > 1;
+
+SELECT *
+FROM churn_3;
+
+-- 2. Renaming Columns 
+-- 3. Removing Unnecessary Columns 
+-- 4. Extracting Data Plan from the Subscription Plan Column 
+-- 5. Creating view
+
+SELECT Locate('G', SubscriptionPlan), SubscriptionPlan
+FROM customer.mtn_customer_churn;
+CREATE VIEW view_churn AS
+SELECT 
+ID,
+Age, 
+State, 
+MTNDevice AS mtn_device, 
+Gender, 
+SatisfactionRate AS satisfaction_rate, 
+customerreview AS customer_review, 
+customerchurnstatus AS customer_churn_status, 
+customertenureinmonths AS tenure,
+CAST(substring(SubscriptionPlan, 1, Locate('G', SubscriptionPlan)-1)AS DOUBLE) AS subscription_plan,
+TotalRevenue AS total_revenue,
+DataUsage AS data_usage,
+reasonsforchurn AS reason_for_churn
+FROM churn_3;
