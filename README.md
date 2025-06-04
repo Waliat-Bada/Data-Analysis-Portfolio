@@ -81,3 +81,14 @@ This project produced advanced Power BI skills, including Power query and comple
 
 Skills: Power BI, DAX, Power Query, Dashboard creation
 
+
+
+# Data Cleaning 
+
+[Data_set.csv](https://github.com/user-attachments/files/20592578/mtn_customer_churn.csv)
+
+In this project. I performed data cleaning using SQL, showcasing skills such as CTE, ROW_Number, View and more.
+
+Skills: MYSQL, Data Cleaning, Index, CTE, ROW_Number, View
+
+
