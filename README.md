@@ -102,3 +102,11 @@ In this project I explored sales, customers and products datasets to perform exp
 
 Skills: MYSQL, LEFT JOIN, GROUP BY, ORDER BY, EDA
 
+
+# Designing a Database
+
+[Designing_a_database](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/Designing%20a%20database.docx)
+
+In this project, I designed a database by firstly understanding the business requirements, then answering questions to fully design a database.
+
+SKILLS: Business Requirement, DATABASE, SCHEMA, RELATIONAL DATABASE
