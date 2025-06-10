@@ -1,4 +1,4 @@
-[gold.dim_customers.csv](https://github.com/user-attachments/files/20670933/gold.dim_customers.csv)# Sales-Excel-Project
+# Sales-Excel-Project
 [Full Excel Project.xlsx](https://github.com/user-attachments/files/20244280/Full.Excel.Project.xlsx)  [Dataset.csv](https://github.com/user-attachments/files/20244572/retail_sales_dataset.1.csv)
 
 This project is used to showcase Excel skills, including IFS and TEXT function to create new column for age bracket and extract month from the date column. Then, I used PivotTables to analyse the data and create a dashboard with slicers and filters.
@@ -95,7 +95,7 @@ Skills: MYSQL, Data Cleaning, Index, CTE, ROW_Number, View
 
 # EDA Using Sales Data 
 [Dataset_sales.csv](https://github.com/user-attachments/files/20670892/gold.fact_sales.csv)   [Dataset_products.csv](https://github.com/user-attachments/files/20670918/gold.dim_products.csv)  
-[Dataset_customers.csv](https://github.com/user-attachments/files/20671040/gold.dim_customers.csv)
+[Dataset_customers.csv](https://github.com/user-attachments/files/20671040/gold.dim_customers.csv)     [EDA_Using_Sales_Dataset](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/EDA-Using-Sales-Dataset)
 
 
 In this project I explored sales, customers and products datasets to perform exploratory data analysis using skills such as left join, group by and more, I calculated business key metrics and anwsered some basic business questions. 
