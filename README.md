@@ -1,4 +1,4 @@
-# Sales-Excel-Project
+[gold.dim_customers.csv](https://github.com/user-attachments/files/20670933/gold.dim_customers.csv)# Sales-Excel-Project
 [Full Excel Project.xlsx](https://github.com/user-attachments/files/20244280/Full.Excel.Project.xlsx)  [Dataset.csv](https://github.com/user-attachments/files/20244572/retail_sales_dataset.1.csv)
 
 This project is used to showcase Excel skills, including IFS and TEXT function to create new column for age bracket and extract month from the date column. Then, I used PivotTables to analyse the data and create a dashboard with slicers and filters.
@@ -85,10 +85,20 @@ Skills: Power BI, DAX, Power Query, Dashboard creation
 
 # Data Cleaning 
 
-[Data_set.csv](https://github.com/user-attachments/files/20592578/mtn_customer_churn.csv)      [Data_Cleaning_Using_SQL](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/Data%20Cleaning%20Using%20SQL)
+[Dataset.csv](https://github.com/user-attachments/files/20592578/mtn_customer_churn.csv)      [Data_Cleaning_Using_SQL](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/Data%20Cleaning%20Using%20SQL)
 
-In this project. I performed data cleaning using SQL, showcasing skills such as CTE, ROW_Number, View and more.
+In this project, I performed data cleaning using SQL, showcasing skills such as CTE, ROW_Number, View and more.
 
 Skills: MYSQL, Data Cleaning, Index, CTE, ROW_Number, View
 
+
+
+# EDA Using Sales Data 
+[Dataset_sales.csv](https://github.com/user-attachments/files/20670892/gold.fact_sales.csv)   [Dataset_products.csv](https://github.com/user-attachments/files/20670918/gold.dim_products.csv)  
+[Dataset_customers.csv](https://github.com/user-attachments/files/20671040/gold.dim_customers.csv)
+
+
+In this project I explored sales, customers and products datasets to perform exploratory data analysis using skills such as left join, group by and more, I calculated business key metrics and anwsered some basic business questions. 
+
+Skills: MYSQL, LEFT JOIN, GROUP BY, ORDER BY, EDA
 
