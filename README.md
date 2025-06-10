@@ -109,4 +109,4 @@ Skills: MYSQL, LEFT JOIN, GROUP BY, ORDER BY, EDA
 
 In this project, I designed a database by firstly understanding the business requirements, then answering questions to fully design a database.
 
-SKILLS: Business Requirement, DATABASE, SCHEMA, RELATIONAL DATABASE
+SKILLS: Business Requirement, Database, Schema, Relational Database
