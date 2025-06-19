@@ -114,7 +114,7 @@ SKILLS: Business Requirement, Database, Schema, Relational Database
 
 # Netflix Movies and TV shows Analysis 
 
-[netflix_titles.csv](https://github.com/user-attachments/files/20817581/netflix_titles.csv) 
+[netflix_titles.csv](https://github.com/user-attachments/files/20817581/netflix_titles.csv)  [Netflix_movies_tv_shows](https://github.com/Waliat-Bada/Data-Analysis-Portfolio/blob/main/Netflix_titles.ipynb)
 
 This project used python to analyse Netflix movies and tv shows, and the goal of the project was identify the most common content, Netflix content over the year, countries that produced the most content, and the most common genres. I began the proecess by importing python libraries, then loading and exploring data, cleaning the data, analysing and visualising results using both vertical and horizontal bar graph, and line graph.  
 
